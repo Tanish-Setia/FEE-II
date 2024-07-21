@@ -1,0 +1,25 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    background-color: #171717;
+    color: white;
+}
+h3{
+    background-color: aqua;
+    text-align: center;
+    color: #171717;
+}
+.super{
+    color: red;
+    font-style: italic;
+}
+h1{
+    color: blue;
+    text-decoration: line-through;
+}
+[type="text"]{
+    background-color: blanchedalmond;
+}
+[type="password"]{
+    background-color: pink;
+}

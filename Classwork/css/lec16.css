@@ -1,0 +1,23 @@
+/* .media{
+    border: 2px solid #ccc;
+    padding: 1rem;
+} */
+
+nav{
+    display: flexbox;
+    flex-direction: row;
+    background-color: #151515;
+}
+
+nav ul{
+    color: #ccc;
+    display: flexbox;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav a{
+    color: #ccc;
+    display: flexbox;
+    flex-direction:row;
+}

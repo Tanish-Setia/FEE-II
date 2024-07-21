@@ -1,0 +1,86 @@
+body{
+display: flex;
+justify-content: right;
+align-items: center;
+height: 100vh;
+background-color: #f0f0f0;
+margin: 0;
+background-image: url(/images/Chitkara_University_pic.jpg) ;
+background-size: cover;
+}
+.logo{
+float: right;
+margin-right: 0px;
+position: absolute;
+top: 0px;
+right: 10px;
+}
+.form{
+background-color: #ffffff;
+padding: 20px;
+width:200px;
+height: 550px;
+margin-right: 50px; 
+}
+.logo-container{
+    text-align: center;
+}
+
+.logo-container img{
+    width: 100px;
+    height: 50px;
+}
+
+label{
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],input[type="password"],select{
+    width: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox input {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d50000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer img {
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
+}
+
+.footer p {
+    font-size: 12px;
+    margin: 5px 0;
+}

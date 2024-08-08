@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+div {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+	box-sizing: border-box;
+	width: 100%;
+	border: 100px solid black;
+	float: left;
+	align-content: center;
+	align-items: center;
+}
+
+form {
+	margin: 0 auto;
+	width: 600px;
+}
+
+    </style>
+</head>
+<body>
+    <script src="30-10.js">
+
+    </script>
+    <form name="RegForm" onsubmit="return validateForm()">
+        <p>
+            Name:
+            <input type="text" name="Name" />
+        </p>
+        <br>
+        <p>
+            Address:
+            <input type="text" name="Address" />
+        </p>
+        <br>
+        <p>
+            E-mail Address:
+            <input type="text" name="EMail" />
+
+        </p>
+        <br>
+        <p>
+            Password:
+            <input type="text" name="Password">
+        </p>
+        <p>
+            Telephone:
+            <input type="text" size="65" name="Telephone" />
+        </p>
+        <br />
+        <p>
+            SELECT YOUR COURSE
+            <select type="text" value="" name="Subject">
+                <option>BTECH</option>
+                <option>BBA</option>
+                <option>BCA</option>
+                <option>B.COM</option>
+                
+            </select>
+        </p>
+        <br />
+        <br />
+        <p>
+            Comments:
+            <textarea cols="55" name="Comment"> </textarea>
+        </p>
+        <p>
+            <input type="submit" value="send" name="Submit" onclick="hehe()" />
+            <input type="reset" value="Reset" name="Reset" onclick="hehe()" />
+        </p>
+    </form>
+</body>
+</html>
+</body>
+</html>
